@@ -7,7 +7,7 @@ const observable = new Observable(subscriber => {
   setTimeout(() => {
     subscriber.next(4);
     subscriber.complete();
-  }, 1000);
+  }, 1500);
 });
 
 observable.subscribe(v => console.log(v));
