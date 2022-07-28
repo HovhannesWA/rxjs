@@ -1,17 +1,9 @@
-import { map, Observable, pipe } from "rxjs";
-import { fromFetch } from "rxjs/fetch";
+//styles
+import "./../styles.css";
 
-const base_url = "https://jsonplaceholder.typicode.com";
+import "./scripts/helper";
 
-const data = fromFetch(base_url + "/todos?_limit=10", {
-    selector: response => response.json()
-})
-.pipe(
-    map(v => v.map(item => item.title)),
-    map(v => v.map(item => item.toUpperCase()))
-    )
-
-data.subscribe({
-  next: (v) => console.log(v),
-  error: (err) => console.log(err),
-});
+// import "./scripts/1-base_example.js";
+// import "./scripts/2-teardown";
+// import "./scripts/3-cold-observables";
+import "./scripts/4-hot-observables";
