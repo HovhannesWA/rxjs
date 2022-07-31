@@ -24,4 +24,8 @@ import "./scripts/helper";
 //Flattening operators
 // import "./scripts/flattening_operators/1-concatMap";
 // import "./scripts/flattening_operators/2-concatMap2";
-import "./scripts/flattening_operators/3-concatMap-VS-switchMap-VS-mergeMap";
+// import "./scripts/flattening_operators/3-concatMap-VS-switchMap-VS-mergeMap";
+
+//Subject
+// import "./scripts/subject/1-subject";
+import "./scripts/subject/2-behaviorSubject";
