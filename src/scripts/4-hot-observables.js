@@ -1,5 +1,5 @@
 import { createCircle } from "./helper";
-import { Observable, subscribeOn, Subscriber } from 'rxjs';
+import { Observable } from 'rxjs';
 
 const main_block = document.getElementsByClassName("main")[0];
 const btn = document.getElementById("btn");

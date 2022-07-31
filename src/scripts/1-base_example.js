@@ -1,4 +1,4 @@
-import { delay, Observable } from "rxjs";
+import { Observable } from "rxjs";
 import { createCircle } from "./helper";
 
 const main_block = document.getElementsByClassName("main")[0];

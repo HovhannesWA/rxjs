@@ -16,3 +16,13 @@ export function genereteColor() {
   const b = randomBetween(0, 255);
   return `rgb(${r},${g},${b})`;
 }
+
+export function addNewNode(parentNodeId, newNode){
+  const parent = document.getElementById(parentNodeId);
+  parent.appendChild(newNode);
+}
+
+
+export function getElById(id){
+  return document.getElementById(id);
+}

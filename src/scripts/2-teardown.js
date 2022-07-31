@@ -1,5 +1,4 @@
 import { Observable } from "rxjs";
-import { createCircle } from "./helper";
 
 const observable = new Observable((subscriber) => {
   let count = 0;

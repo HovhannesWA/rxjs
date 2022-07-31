@@ -17,10 +17,8 @@ module.exports = {
       template: "./src/index.html",
     }),
     new CopyPlugin({
-      patterns: [
-        { from: "public", to: path.join(__dirname, "dist") }
-      ],
-    })
+      patterns: [{ from: "public", to: path.join(__dirname, "dist") }],
+    }),
   ],
   module: {
     rules: [
@@ -28,6 +26,9 @@ module.exports = {
         test: /\.css$/,
         use: ["style-loader", "css-loader"],
       }
-    ]
+    ],
   },
+  experiments: {
+    topLevelAwait: true
+  }
 };
