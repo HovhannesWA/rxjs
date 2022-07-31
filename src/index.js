@@ -19,4 +19,9 @@ import "./scripts/helper";
 // import "./scripts/pipeable_operators/2-map";
 // import "./scripts/pipeable_operators/3-tap";
 // import "./scripts/pipeable_operators/4-debounceTime-throttleTime";
-import "./scripts/pipeable_operators/5-catchError";
+// import "./scripts/pipeable_operators/5-catchError";
+
+//Flattening operators
+// import "./scripts/flattening_operators/1-concatMap";
+// import "./scripts/flattening_operators/2-concatMap2";
+import "./scripts/flattening_operators/3-concatMap-VS-switchMap-VS-mergeMap";
